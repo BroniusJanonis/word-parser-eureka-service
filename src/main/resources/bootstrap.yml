@@ -1,0 +1,11 @@
+---
+server:
+  port: 8010
+
+spring:
+  application:
+    name: word-parser-eureka-server
+  cloud:
+    config:
+      fail-fast: true
+      uri: http://157.230.27.96:8001
